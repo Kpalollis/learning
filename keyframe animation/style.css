@@ -1,0 +1,21 @@
+body{
+    padding:30px;
+}
+
+.box{
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+    animation: myanimation 3s infinite ease-in;
+}
+
+@keyframes myanimation{
+0%{width: 50px;
+}
+
+50%{background-color: aquamarine;
+    height: 20px;
+}
+
+100%{width: 100px;}
+}
